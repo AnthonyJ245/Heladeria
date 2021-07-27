@@ -21,7 +21,7 @@ namespace Heladeria
             string nombre = txt_usuario.Text;
             string contra = txt_contraseña.Text; if (nombre == "Kenny" && contra == "12345")
             {
-                MessageBox.Show("Bienvenido Trabajor \n" + nombre); this.Hide();
+                MessageBox.Show("Bienvenido Trabajador \n" + nombre); this.Hide();
                 new Trabajador().ShowDialog();
                 this.Close();
             }
