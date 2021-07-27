@@ -16,7 +16,7 @@ namespace Heladeria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Trabajador());
+            Application.Run(new Form1());
         }
     }
 }
