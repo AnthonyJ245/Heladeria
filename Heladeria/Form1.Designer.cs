@@ -44,7 +44,7 @@ namespace Heladeria
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(124, 9);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 37);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace Heladeria
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(443, 9);
+            this.label2.Location = new System.Drawing.Point(272, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(206, 37);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace Heladeria
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(344, 60);
+            this.label3.Location = new System.Drawing.Point(205, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 37);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace Heladeria
             // btn_administrador
             // 
             this.btn_administrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_administrador.Location = new System.Drawing.Point(131, 156);
+            this.btn_administrador.Location = new System.Drawing.Point(12, 155);
             this.btn_administrador.Name = "btn_administrador";
             this.btn_administrador.Size = new System.Drawing.Size(213, 29);
             this.btn_administrador.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace Heladeria
             // btn_trabajador
             // 
             this.btn_trabajador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_trabajador.Location = new System.Drawing.Point(439, 156);
+            this.btn_trabajador.Location = new System.Drawing.Point(303, 155);
             this.btn_trabajador.Name = "btn_trabajador";
             this.btn_trabajador.Size = new System.Drawing.Size(162, 29);
             this.btn_trabajador.TabIndex = 4;
@@ -96,7 +96,7 @@ namespace Heladeria
             // 
             this.txt_fechahora.Enabled = false;
             this.txt_fechahora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_fechahora.Location = new System.Drawing.Point(291, 222);
+            this.txt_fechahora.Location = new System.Drawing.Point(141, 222);
             this.txt_fechahora.Name = "txt_fechahora";
             this.txt_fechahora.Size = new System.Drawing.Size(197, 26);
             this.txt_fechahora.TabIndex = 5;
@@ -113,7 +113,7 @@ namespace Heladeria
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(768, 319);
+            this.ClientSize = new System.Drawing.Size(507, 356);
             this.Controls.Add(this.txt_fechahora);
             this.Controls.Add(this.btn_trabajador);
             this.Controls.Add(this.btn_administrador);
